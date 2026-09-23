@@ -1,2 +1,7 @@
 .rsconnect_plugins/
 rsconnect/
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+.quarto/
