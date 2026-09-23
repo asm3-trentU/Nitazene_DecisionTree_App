@@ -1,0 +1,10 @@
+﻿Mass,Expected Cores,Message
+163,[O-][N+](C1=CC=C2C(N=[!][?]2)=C1)=O,
+133,NC1=CC=C2C(N=[!][?]2)=C1,
+118,[H]C1=CC=C2C(N=[!][?]2)=C1,
+132,CC1=CC=C2C(N=[!][?]2)=C1,
+177,[O-][N+](C1=CC=C2C(N=C([!])[?]2)=C1)=O,
+205,[O-][N+](C1=CC=C2C(N=C(CC3=CC=C(OCCC)C=C3)[?]2)=C1)=O,"The combination of the protonated molecule, R1 prediction, and R2 prediction resulted in a core + R3 value that is not one of the standard five cores observed in our dataset, but is indicative of the structure shown below, or one of its isomers. More information about this can be found in the About the app tab."
+160,[H]C1=CC=C2C(N=C(CC3=CC=C(OCCC)C=C3)[?]2)=C1,"The combination of the protonated molecule, R1 prediction, and R2 prediction resulted in a core + R3 value that is not one of the standard five cores observed in our dataset, but is indicative of the structure shown below, or one of its isomers. More information about this can be found in the About the app tab."
+175,NC1=CC=C2C(N=C(CC3=CC=C(OCCC)C=C3)[?]2)=C1,"The combination of the protonated molecule, R1 prediction, and R2 prediction resulted in a core + R3 value that is not one of the standard five cores observed in our dataset, but is indicative of the structure shown below, or one of its isomers. More information about this can be found in the About the app tab."
+219,[O-][N+](C1=CC=C2C(N=C(CC3=CC=C(OCCCC)C=C3)[?]2)=C1)=O,"The combination of the protonated molecule, R1 prediction, and R2 prediction resulted in a core + R3 value that is not one of the standard five cores observed in our dataset, but is indicative of the structure shown below, or one of its isomers. More information about this can be found in the About the app tab."

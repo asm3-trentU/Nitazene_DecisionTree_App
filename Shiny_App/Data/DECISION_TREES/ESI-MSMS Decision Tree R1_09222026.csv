@@ -1,0 +1,5 @@
+steps,mz,int,yes,no,R_yes,R_no
+1,100,0,C/C=[N+](CC)/CC,2,CCN(CC)CC[?],
+2,72,0,[H]/[N+](CC)=C/C,3,[?]CCN(CC),
+3,112,0,C/C=[N+]1CCCCC/1,4,[?]CCN1CCCCC1,
+4,98,0,C/C=[N+]1CCCC/1,unknown,[?]CCN1CCCC1,
