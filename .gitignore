@@ -1,5 +1,6 @@
 .rsconnect_plugins/
 rsconnect/
+.Rapp.history
 .Rhistory
 .RData
 .Ruserdata
