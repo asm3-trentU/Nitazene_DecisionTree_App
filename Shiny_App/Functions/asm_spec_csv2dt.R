@@ -1,7 +1,7 @@
 csv2dt <- function(exampleSpec_csv){
-  tempdata <- read.csv(exampleSpec_csv, header = FALSE, skip = 2)
-  all_mzs  <- tempdata[[2]]
-  all_ints <- as.numeric(tempdata[[3]])
+  tempdata <- read.csv(exampleSpec_csv, header = FALSE)
+  all_mzs  <- tempdata[[1]]
+  all_ints <- as.numeric(tempdata[[2]])
   all_ints = 100*all_ints/max(all_ints)
   min_signal = 1
   counter = 0
