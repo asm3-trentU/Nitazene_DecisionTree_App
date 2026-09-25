@@ -45,7 +45,7 @@ page_sidebar(
       numericInput(
         inputId = "PreMZ",
         label = HTML("Nominal protonated molecule <i>m/z</i>"),
-        value = 353,
+        value = 369,
         min = 100,
         max = 2000,
         step = 1
@@ -69,7 +69,7 @@ page_sidebar(
       nav_panel(
         "About the app",
         card(
-          p("The Nitazene Decision Tree app employs encoded decision trees and product ion spectra to predict the potential structure of an unknown."),
+          p(HTML("The Nitazene Decision Tree app employs encoded decision trees and a product ion spectrum to predict the potential structure of an unknown. The product ion mass spectrum should be provided as a two-column (<i>m/z</i>, intensity) .csv file  without header information. You can download an example mass spectrum "),tags$a(href="exampleMS2.csv",download="exampleMS2.csv","here"),HTML(".")),
           p("For reference, the structure predictions are based on the following scaffold:"),
           img(src="Scaffold.svg",width="50%"),
           p( HTML("<b>Note on core + R<sub>3</sub> values:</b>")),
@@ -83,7 +83,7 @@ page_sidebar(
     ),
     div(
       style = "width: 100%; margin: 0 auto",
-      p( "This software tool was co-developed by researchers from the Davidson Research Group at Sam Houston State University (Huntsville, TX, USA) and the CRAFTS Lab at Trent University (Peterborough, ON, Canada)", style = "font-size: 80%;"),
+      p( "This software tool was co-developed by researchers from the Davidson Research Group at Sam Houston State University (Huntsville, TX, USA) and the CRAFTS Lab at Trent University (Peterborough, ON, Canada).", style = "font-size: 80%;"),
       img(src="Logos.png",width="30%")
     )
 
